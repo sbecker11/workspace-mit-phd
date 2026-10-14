@@ -5,7 +5,7 @@
 <!-- SUMMARY:START generated from workspace-linkedin-profile/Projects.json by scripts/build_readme_header.py; edit there -->
 A semi-automated process that uses multiple photographs of a scene to create a textured 3-D model for interactive model-based video. MIT Media Laboratory doctoral research, 1997: parallel and coplanar edges marked across uncalibrated views are used to estimate each camera's focal length, position, and orientation, recover piecewise-planar scene geometry, and map photograph texture onto that model as a VRML scene that can be re-rendered from new viewpoints.
 
-**Page:** [https://alumni.media.mit.edu/~sbeck/index.html](https://alumni.media.mit.edu/~sbeck/index.html)\
+**Web page:** [https://alumni.media.mit.edu/~sbeck/index.html](https://alumni.media.mit.edu/~sbeck/index.html)\
 **Thesis:** [https://dspace.mit.edu/handle/1721.1/29123](https://dspace.mit.edu/handle/1721.1/29123)
 
 **Skills:** Computer Vision · Photogrammetry · 3D Scene Reconstruction · Structure from Motion · Camera Calibration · Projective Geometry · Model-Based Video · Computer Graphics · 3D Data Visualization · Algorithms · Automated Software Testing (JUnit/Jest/Vitest/PyTest)
