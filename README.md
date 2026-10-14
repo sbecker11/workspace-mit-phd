@@ -5,9 +5,6 @@
 <!-- SUMMARY:START generated from workspace-linkedin-profile/Projects.json by scripts/build_readme_header.py; edit there -->
 A semi-automated process that uses multiple photographs of a scene to create a textured 3-D model for interactive model-based video. MIT Media Laboratory doctoral research, 1997: parallel and coplanar edges marked across uncalibrated views are used to estimate each camera's focal length, position, and orientation, recover piecewise-planar scene geometry, and map photograph texture onto that model as a VRML scene that can be re-rendered from new viewpoints.
 
-**Web page:** [https://alumni.media.mit.edu/~sbeck/index.html](https://alumni.media.mit.edu/~sbeck/index.html)\
-**Thesis:** [https://dspace.mit.edu/handle/1721.1/29123](https://dspace.mit.edu/handle/1721.1/29123)
-
 **Skills:** Computer Vision · Photogrammetry · 3D Scene Reconstruction · Structure from Motion · Camera Calibration · Projective Geometry · Model-Based Video · Computer Graphics · 3D Data Visualization · Algorithms · Automated Software Testing (JUnit/Jest/Vitest/PyTest)
 <!-- SUMMARY:END -->
 
@@ -39,7 +36,7 @@ The user builds an "origami scene": polyhedral surfaces whose hinge lines are vi
 
 The photographs above are three of seven overlapping views of one room, shot with a hand-held uncalibrated camera of unknown lens and focal length. Focal length, position, and rotation differ across the views.
 
-Point and line features are marked by hand and grouped across views into parallel and coplanar sets. A least-squares fit estimates focal length, world-relative rotation, and position for each view. For this scene the image center is the principal point, and lens distortion is treated as negligible. With more edge information those parameters can be estimated as well; that calibration is the separate [lens distortion](https://github.com/sbecker11/lens-distortion-estimation) result.
+Point and line features are marked by hand and grouped across views into parallel and coplanar sets. A least-squares fit estimates focal length, world-relative rotation, and position for each view. For this scene the image center is the principal point, and lens distortion is treated as negligible. With more edge information those parameters can be estimated as well; that calibration is the separate [lens distortion](https://github.com/sbecker11/lens-distortion-estimation/blob/main/README.html) result.
 
 Polygon extent is then estimated by projecting the calibrated features into the scene. Textures are sampled from the photographs according to which surface was visible in which view. Any viewpoint, including the original cameras, can be synthesized by texture rendering.
 
