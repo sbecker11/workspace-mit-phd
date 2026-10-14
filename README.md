@@ -28,15 +28,15 @@ That split matches the VRML idea of a static object plus a dynamic stream. The o
 
 Given one or more views of a static scene, and preselected sets of parallel and coplanar edges, the method recovers view-invariant scene information: 3-D geometry, surface texture, and the cameras that made the views. So far that covers camera parameters, planar 3-D geometry, and surface texture. The scene description is a VRML file.
 
-The user builds an "origami scene": polyhedral surfaces whose hinge lines are visible, with parallelism, orthogonality, and planarity marked among the key lines and points. Two programs do that markup. **sceneBuild** is an X11 tool; Matt Lennon and Bill Butera wrote its tutorial. **ModelMaker** is a later Motif and Open Inventor version by Eugene Lin.
+The user builds an "origami scene": polyhedral surfaces whose hinge lines are visible, with parallelism, orthogonality, and planarity marked among the key lines and points. Two programs do that markup. **sceneBuild** is an X11 tool; [Matt Lennon](https://www.linkedin.com/in/matthew-lennon-5aa3411/) and [Bill Butera](https://www.linkedin.com/in/bill-butera-04a313/) wrote its tutorial. **ModelMaker** is a later Motif and Open Inventor version by [Eugene Lin](https://www.linkedin.com/in/eugeneismyname/).
 
-**sceneAnalyze** takes the 2-D origami model and estimates the camera's internal geometry, each camera's position and orientation, and the 3-D geometry of the surfaces. Under test conditions, polygonal geometry of piecewise-rectangular objects was recovered to better than 0.5% dimensional accuracy from uncalibrated views. Later work with Eugene Lin extended the same setup toward generalized cylinders and free-form surfaces.
+**sceneAnalyze** takes the 2-D origami model and estimates the camera's internal geometry, each camera's position and orientation, and the 3-D geometry of the surfaces. Under test conditions, polygonal geometry of piecewise-rectangular objects was recovered to better than 0.5% dimensional accuracy from uncalibrated views. Later work with [Eugene Lin](https://www.linkedin.com/in/eugeneismyname/) extended the same setup toward generalized cylinders and free-form surfaces.
 
 ## This room
 
 The photographs above are three of seven overlapping views of one room, shot with a hand-held uncalibrated camera of unknown lens and focal length. Focal length, position, and rotation differ across the views.
 
-Point and line features are marked by hand and grouped across views into parallel and coplanar sets. A least-squares fit estimates focal length, world-relative rotation, and position for each view. For this scene the image center is the principal point, and lens distortion is treated as negligible. With more edge information those parameters can be estimated as well; that calibration is the separate [lens distortion](https://github.com/sbecker11/lens-distortion-estimation/blob/main/README.html) result.
+Point and line features are marked by hand and grouped across views into parallel and coplanar sets. A least-squares fit estimates focal length, world-relative rotation, and position for each view. For this scene the image center is the principal point, and lens distortion is treated as negligible. With more edge information those parameters can be estimated as well; the process of lens distortion estimation and correction is found at project https://github.com/sbecker11/lens-distortion-estimation.
 
 Polygon extent is then estimated by projecting the calibrated features into the scene. Textures are sampled from the photographs according to which surface was visible in which view. Any viewpoint, including the original cameras, can be synthesized by texture rendering.
 
@@ -54,12 +54,12 @@ The modeling package is three programs, **sceneBuild**, **sceneAnalyze**, and **
 
 ## Dissertation
 
-The dissertation is [*Vision-assisted modeling for model-based video representations*](https://dspace.mit.edu/handle/1721.1/29123), Shawn C. Becker, advised by V. Michael Bove, Jr., Program in Media Arts and Sciences, Massachusetts Institute of Technology, 1997. A local copy is `mit-dissertationi.pdf`.
+The dissertation is [*Vision-assisted modeling for model-based video representations*](https://dspace.mit.edu/handle/1721.1/29123), Shawn C. Becker, advised by [V. Michael Bove, Jr.](https://www.linkedin.com/in/v-michael-bove-475126/), Program in Media Arts and Sciences, Massachusetts Institute of Technology, 1997. A local copy is `mit-dissertationi.pdf`.
 
 Selected papers from the research page:
 
 - Shawn Becker, *Vision-assisted modeling for model-based video representations*, Ph.D. thesis proposal, MIT, March 1996.
-- Shawn Becker and V. Michael Bove, Jr., *Semiautomatic 3-D Model Extraction From Uncalibrated 2-D Camera Views*, SPIE Symposium on Electronic Imaging: Science & Technology, San Jose, February 5–10, 1995.
+- Shawn Becker and [V. Michael Bove, Jr.](https://www.linkedin.com/in/v-michael-bove-475126/), *Semiautomatic 3-D Model Extraction From Uncalibrated 2-D Camera Views*, SPIE Symposium on Electronic Imaging: Science & Technology, San Jose, February 5–10, 1995.
 - Steve Mann and Shawn Becker, *Computation of some projective-chirplet-transform and metaplectic-chirplet-transform subspaces, with applications in image processing*, DSP World Symposium, Boston, November 1992.
 - Shawn Becker, William A. Barrett, and Dan R. Olsen, *Interactive Measurement of Three-Dimensional Objects Using a Depth Buffer and Linear Probe*, ACM Transactions on Graphics, Vol. 10, No. 2, April 1991.
 
