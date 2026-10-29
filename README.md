@@ -63,6 +63,19 @@ Selected papers from the research page:
 - Steve Mann and Shawn Becker, *Computation of some projective-chirplet-transform and metaplectic-chirplet-transform subspaces, with applications in image processing*, DSP World Symposium, Boston, November 1992.
 - Shawn Becker, William A. Barrett, and Dan R. Olsen, *Interactive Measurement of Three-Dimensional Objects Using a Depth Buffer and Linear Probe*, ACM Transactions on Graphics, Vol. 10, No. 2, April 1991.
 
+## Chirplet subspaces
+
+Steve Mann and Shawn Becker, *Computation of some projective-chirplet-transform and metaplectic-chirplet-transform subspaces, with applications in image processing*, DSP World Symposium, Boston, November 1992. MIT Media Laboratory. The chirplet transform decomposes a signal into pieces whose frequency can change over time. The paper computes subspaces of the projective chirplet transform (PCT) and the metaplectic chirplet transform (MCT), so perspective tilt, shear, rotation, and quadratic phase can be analyzed without evaluating the full parameter space.
+
+**Skills:** Chirplet Transform · Time-Frequency Analysis · Projective Chirplet Transform · Metaplectic Chirplet Transform · Projective Geometry · SL(3, R) · Metaplectic Group · Symplectic Group · Quadratic Phase · Perspective Correction · Vanishing Points · Camera Orientation · Synthetic Aperture Radar · Doppler · Motion Blur Removal · Medical Image Shear · Biometric Image Normalization
+
+Topics used in that work:
+
+- Time-frequency analysis of 1-D signals and 2-D images, including linear chirps, projective chirps, and quadratic phase modulation
+- Projective chirplet subspaces: camera perspective, the projective group SL(3, R), tilt and pan-tilt-zoom paths, image rectification, horizon tracking, vanishing points and vanishing lines, and camera orientation relative to a ground plane
+- Metaplectic chirplet subspaces: the metaplectic group as a double cover of the symplectic group, spatial shear and rotation, localized orientation and acceleration, motion-blur removal, and Doppler phase shifts
+- Imaging uses: object deformation and rotation relative to a camera, synthetic aperture radar and sonar de-blurring, non-rigid tissue shear in ultrasound and MRI, and normalizing stretch or tilt in iris and fingerprint images
+
 ## Keywords
 
 Computer vision, image processing, line detection, center of projection, image center, focal length, 3-D sphere of plane normals, orthogonality, covariance-based weighting, clutter avoidance, planar clustering, multi-sample fusion, parallel lines, vanishing points, distortion modeling, simplex cost minimization, interior camera modeling, photogrammetry, scene-relative camera orientation and position, error sensitivity, circle of confusion, inverse texture mapping, computer graphics, texture mapping, feature detection, feature tracking, camera path interpolation, model-based video coding, video compression, MPEG-4 multimedia layers, multi-layered audio and video, 3-D scene model, 3-D camera position, 3-D camera orientation, camera zoom, 3-D audio sources, lighting, actors, objects, two-way internet communications, interactive video, interactive virtual camera and scene manipulation.
