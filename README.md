@@ -54,7 +54,7 @@ The modeling package is three programs, **sceneBuild**, **sceneAnalyze**, and **
 
 ## Dissertation
 
-The dissertation is [*Vision-assisted modeling for model-based video representations*](https://dspace.mit.edu/handle/1721.1/29123), Shawn C. Becker, advised by [V. Michael Bove, Jr.](https://www.linkedin.com/in/v-michael-bove-475126/), Program in Media Arts and Sciences, Massachusetts Institute of Technology, 1997. A local copy is `mit-dissertationi.pdf`.
+The dissertation is [*Vision-assisted modeling for model-based video representations*](https://dspace.mit.edu/handle/1721.1/29123), Shawn C. Becker, advised by [V. Michael Bove, Jr.](https://www.linkedin.com/in/v-michael-bove-475126/), Program in Media Arts and Sciences, Massachusetts Institute of Technology, 1997. A local copy is [`mit-dissertationi.pdf`](mit-dissertationi.pdf).
 
 Selected papers from the research page:
 
@@ -67,14 +67,28 @@ Selected papers from the research page:
 
 Steve Mann and Shawn Becker, *Computation of some projective-chirplet-transform and metaplectic-chirplet-transform subspaces, with applications in image processing*, DSP World Symposium, Boston, November 1992. MIT Media Laboratory. The chirplet transform decomposes a signal into pieces whose frequency can change over time. The paper computes subspaces of the projective chirplet transform (PCT) and the metaplectic chirplet transform (MCT), so perspective tilt, shear, rotation, and quadratic phase can be analyzed without evaluating the full parameter space.
 
-**Skills:** Chirplet Transform · Time-Frequency Analysis · Projective Chirplet Transform · Metaplectic Chirplet Transform · Projective Geometry · SL(3, R) · Metaplectic Group · Symplectic Group · Quadratic Phase · Perspective Correction · Vanishing Points · Camera Orientation · Synthetic Aperture Radar · Doppler · Motion Blur Removal · Medical Image Shear · Biometric Image Normalization
-
 Topics used in that work:
 
 - Time-frequency analysis of 1-D signals and 2-D images, including linear chirps, projective chirps, and quadratic phase modulation
 - Projective chirplet subspaces: camera perspective, the projective group SL(3, R), tilt and pan-tilt-zoom paths, image rectification, horizon tracking, vanishing points and vanishing lines, and camera orientation relative to a ground plane
 - Metaplectic chirplet subspaces: the metaplectic group as a double cover of the symplectic group, spatial shear and rotation, localized orientation and acceleration, motion-blur removal, and Doppler phase shifts
 - Imaging uses: object deformation and rotation relative to a camera, synthetic aperture radar and sonar de-blurring, non-rigid tissue shear in ultrasound and MRI, and normalizing stretch or tilt in iris and fingerprint images
+
+## Skills
+
+Dissertation, *Vision-assisted modeling for model-based video representations*: photogrammetry and model-based video.
+
+Computer Vision · Photogrammetry · 3D Scene Reconstruction · Structure from Motion · Camera Calibration · Projective Geometry · Model-Based Video · Computer Graphics · 3D Data Visualization · Algorithms · Automated Software Testing (JUnit/Jest/Vitest/PyTest)
+
+Chirplet subspaces, Steve Mann and Shawn Becker, *Computation of some projective-chirplet-transform and metaplectic-chirplet-transform subspaces, with applications in image processing*, DSP World Symposium, Boston, November 1992:
+
+Chirplet Transform · Time-Frequency Analysis · Projective Chirplet Transform · Metaplectic Chirplet Transform · Projective Geometry · SL(3, R) · Metaplectic Group · Symplectic Group · Quadratic Phase · Perspective Correction · Vanishing Points · Camera Orientation · Synthetic Aperture Radar · Doppler · Motion Blur Removal · Medical Image Shear · Biometric Image Normalization
+
+## Paper snapshots
+
+[![Title page of Vision-assisted modeling for model-based video representations](media/mit-dissertation-page1.png)](mit-dissertationi.pdf)
+
+*Vision-assisted modeling for model-based video representations*, Shawn C. Becker, Massachusetts Institute of Technology, 1997.
 
 ## Keywords
 
