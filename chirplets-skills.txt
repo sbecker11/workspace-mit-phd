@@ -1,0 +1,33 @@
+Computation of some projective-chirplet-transform and metaplectic-chirplet-transform subspaces, with applications in image processing
+Steve Mann and Shawn Becker, DSP World Symposium, Boston, November 1992
+
+Time-frequency and chirplet analysis
+- Chirplet transform: decomposition into pieces whose frequency can change over time, rather than fixed-frequency wavelet packets
+- Time-frequency analysis of 1D signals and 2D images
+- Linear chirps and projective chirps, where spatial frequency increases or decreases over distance
+- Quadratic phase modulation
+- Computing selected subspaces of a higher-dimensional chirplet parameter space instead of the full transform
+
+Projective chirplet transform (PCT)
+- Projective geometry and camera perspective
+- Projective group SL(3, R)
+- Perspective tilt as a spatial-frequency chirp (grid lines compressing toward a horizon)
+- Restricted coordinates such as horizontal and vertical tilts and pan-tilt-zoom paths
+- Image rectification and perspective correction, including un-warping a skewed document or billboard
+- Horizon tracking
+- Vanishing points and vanishing lines
+- Camera orientation relative to a ground plane without tracking discrete landmarks
+
+Metaplectic chirplet transform (MCT)
+- Metaplectic group as a double cover of the symplectic group
+- Links among signal processing, optics, and the Wigner distribution
+- Linear chirps from spatial shear, rotation, and quadratic phase
+- Localized orientation and acceleration of image components
+- Motion-blur removal
+- Doppler and phase-shift models for objects moving across a sensor
+
+Imaging applications
+- Tracking how objects deform, rotate, or change perspective relative to a camera
+- Synthetic aperture radar (SAR), radar, and sonar: target velocity and acceleration smearing, and de-blurring fast-moving objects
+- Medical imaging: shear and other continuous non-rigid tissue deformation in ultrasound and MRI, including elasticity
+- Biometrics: normalizing elastic skin stretch and camera-to-eye tilt in iris and fingerprint images before matching
