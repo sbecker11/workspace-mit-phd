@@ -5,7 +5,7 @@
 <!-- SUMMARY:START generated from workspace-linkedin-profile/Projects.json by scripts/build_readme_header.py; edit there -->
 A semi-automated process that uses multiple photographs of a scene to create a textured 3-D model for interactive model-based video. MIT Media Laboratory doctoral research, 1997: parallel and coplanar edges marked across uncalibrated views are used to estimate each camera's focal length, position, and orientation, recover piecewise-planar scene geometry, and map photograph texture onto that model as a VRML scene that can be re-rendered from new viewpoints.
 
-**Skills:** Computer Vision · Photogrammetry · 3D Scene Reconstruction · Structure from Motion · Camera Calibration · Projective Geometry · Model-Based Video · Computer Graphics · 3D Data Visualization · Algorithms · Automated Software Testing (JUnit/Jest/Vitest/PyTest)
+**Skills:** Computer Vision · Photogrammetry · 3D Scene Reconstruction · Structure from Motion · Camera Calibration · Projective Geometry · Model-Based Video · Computer Graphics · 3D Data Visualization · Algorithms
 <!-- SUMMARY:END -->
 
 This repository documents two pieces of research from the MIT Media Laboratory. They came out of the same lab and both deal with how a camera's geometry shows up in an image, but they are otherwise independent and can be read separately.
@@ -104,7 +104,13 @@ The [chirplet transform](https://en.wikipedia.org/wiki/Chirplet_transform) decom
 
 ## Skills and keywords
 
-Computer Vision · Photogrammetry · 3D Scene Reconstruction · Structure from Motion · Camera Calibration · Projective Geometry · Model-Based Video · Computer Graphics · 3D Data Visualization · Image Processing · Algorithms · Chirplet Transform · Time-Frequency Analysis · Projective Chirplet Transform · Metaplectic Chirplet Transform · SL(3, R) · Metaplectic Group · Symplectic Group · Quadratic Phase · Perspective Correction · Vanishing Points · Parallel Lines · Orthogonality · Line Detection · Feature Detection · Feature Tracking · Interior Camera Modeling · Center of Projection · Image Center · Focal Length · Camera Zoom · Distortion Modeling · Scene-Relative Camera Position and Orientation · Camera Path Interpolation · 3D Sphere of Plane Normals · Planar Clustering · Covariance-Based Weighting · Multi-Sample Fusion · Clutter Avoidance · Simplex Cost Minimization · Error Sensitivity · Circle of Confusion · Texture Mapping · Inverse Texture Mapping · Model-Based Video Coding · Video Compression · MPEG-4 Multimedia Layers · Multi-Layered Audio and Video · 3D Scene Models (Cameras, Lighting, Actors, Objects, 3D Audio Sources) · Interactive Video · Interactive Virtual Camera and Scene Manipulation · Two-Way Internet Communications
+- **Core areas:** Computer Vision · Photogrammetry · 3D Scene Reconstruction · Structure from Motion · Camera Calibration · Projective Geometry · Computer Graphics · 3D Data Visualization · Image Processing · Algorithms
+- **Camera modeling:** Interior Camera Modeling · Center of Projection · Image Center · Focal Length · Camera Zoom · Distortion Modeling · Scene-Relative Camera Position and Orientation · Camera Path Interpolation
+- **Geometry recovery:** Line Detection · Parallel Lines · Orthogonality · Vanishing Points · 3D Sphere of Plane Normals · Planar Clustering · Feature Detection · Feature Tracking
+- **Estimation:** Covariance-Based Weighting · Multi-Sample Fusion · Clutter Avoidance · Simplex Cost Minimization · Error Sensitivity · Circle of Confusion
+- **Texture and rendering:** Texture Mapping · Inverse Texture Mapping
+- **Model-based video:** Model-Based Video · Model-Based Video Coding · Video Compression · MPEG-4 Multimedia Layers · Multi-Layered Audio and Video · 3D Scene Models (Cameras, Lighting, Actors, Objects, 3D Audio Sources) · Interactive Video · Interactive Virtual Camera and Scene Manipulation · Two-Way Internet Communications
+- **Chirplet analysis:** Chirplet Transform · Time-Frequency Analysis · Projective Chirplet Transform · Metaplectic Chirplet Transform · SL(3, R) · Metaplectic Group · Symplectic Group · Quadratic Phase · Perspective Correction
 
 ---
 
