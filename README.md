@@ -73,7 +73,7 @@ The original three programs are scripted in Tcl with Xlib drawing; menus are sma
 
 [![Title page of Vision-assisted modeling for model-based video representations](media/mit-dissertation-page1.png)](https://dspace.mit.edu/handle/1721.1/29123)
 
-Shawn C. Becker, [*Vision-assisted modeling for model-based video representations*](https://dspace.mit.edu/handle/1721.1/29123), Ph.D. dissertation, Program in Media Arts and Sciences, Massachusetts Institute of Technology, 1997. Advisor: [V. Michael Bove, Jr.](https://www.linkedin.com/in/v-michael-bove-475126/)
+Shawn C. Becker, [*Vision-assisted modeling for model-based video representations*](https://dspace.mit.edu/handle/1721.1/29123), Ph.D. dissertation, Program in Media Arts and Sciences, Massachusetts Institute of Technology, 1997. Advisor: [V. Michael Bove, Jr.](https://www.linkedin.com/in/v-michael-bove-475126/) · [view the PDF](mit-dissertation.pdf)
 
 Related papers:
 
